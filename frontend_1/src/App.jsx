@@ -11,7 +11,7 @@ function App() {
     const text = input.trim();
     if (!text) return;
 
-    const res = await fetch('http://localhost:5000/send_message', {
+    const res = await fetch(' https://final-chat-application-8g6i.onrender.com/send_message', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: text })
