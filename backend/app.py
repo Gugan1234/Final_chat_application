@@ -20,7 +20,7 @@ app = Flask(__name__)
 CORS(app)
 
 # === Gemini API Key ===
-genai.configure(api_key="GOOGLE_API_KEY")
+genai.configure(api_key="AIzaSyAx3QXRZuJ2ARpzi6REq8HcCX4xolp4Gjc")
 
 # === Load Document ===
 with open("document.txt", "r", encoding="utf-8") as file:
